@@ -1,0 +1,24 @@
+.wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	min-height: 100%;
+	padding: 0 40px;
+}
+.main {
+	min-height: 200px;
+	background: url('../assets/img/Background.jpg') repeat #b7b7b7 center center;
+	background-size: 100%;
+	opacity: 0.5;
+	position: relative;
+	background-attachment: fixed;
+	-webkit-box-flex: 1;
+	    -ms-flex: 1 0 auto;
+	        flex: 1 0 auto;
+	-webkit-box-shadow: inset 0 0.7em 0 0 rgba(183, 183, 183);
+	        box-shadow: inset 0 0.7em 0 0 rgba(183, 183, 183);
+}
