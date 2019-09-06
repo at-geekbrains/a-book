@@ -1,7 +1,7 @@
 import React from 'react';
-import { Route, Router,Redirect } from 'react-router-dom';
+import { Route, Router, Redirect } from 'react-router-dom';
 import { createBrowserHistory } from "history";
-import Layout from './layouts/Layout';
+import Layout from './Layout';
 import PageNotFound from './pages/PageNotFound';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './logo.svg';
@@ -13,7 +13,7 @@ function App() {
   return (
     <Router history={customHistory}>
 		  <Route path="/" component={Layout}/>		
-		  <Redirect from='*' to='/' />
+		  {/* <Redirect from='*' to='/' /> */}
 	  </Router>    
   );
 }
