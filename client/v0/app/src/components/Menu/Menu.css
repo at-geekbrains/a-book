@@ -29,7 +29,7 @@
 .logo:first-letter {
 	font-size: 46px;
 	font-weight: 700;
-	background: linear-gradient(-45deg, rgb(0, 20, 255), rgb(2, 141, 173), rgb(169, 222, 255), rgba(245, 255, 0, 1), rgb(255, 57, 10), rgba(255, 0, 0, 1));
+	background: linear-gradient(-45deg, rgb(158, 178, 163), rgb(252, 252, 252), rgb(182, 225, 252), rgb(121, 175, 121), rgb(212, 212, 212), rgb(131, 170, 134));
 	-webkit-background-clip: text;
 	        background-clip: text;
 	color: transparent;
